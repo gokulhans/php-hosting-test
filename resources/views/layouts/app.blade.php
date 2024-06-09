@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://github.com/gokulhans/php-hosting-test/blob/main/css/app.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
