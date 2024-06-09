@@ -101,7 +101,8 @@
 @endsection
 @push('js')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-     <script src="{{asset('/')}}js/multifield/jquery.multifield.min.js"></script>
+     <script src="https://raw.githubusercontent.com/gokulhans/php-hosting-test/main/js/multifield/jquery.multifield.min.js"></script>
+
 
 
 

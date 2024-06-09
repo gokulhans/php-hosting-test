@@ -46,8 +46,8 @@
                                      <td>{{$product->name}}</td>
 
                                      {{-- <td>{{$add->product->model}}</td>
-                                     <td>{{$add->product->serial_number}}</td> 
-                                     <td>{{$add->price}}</td> 
+                                     <td>{{$add->product->serial_number}}</td>
+                                     <td>{{$add->price}}</td>
                                       <td>{{$add->supplier->name}}</td> --}}
 
                                      <td>{{$product->sales_price}}</td>
@@ -79,8 +79,9 @@
 @endsection
 
 @push('js')
-    <script type="text/javascript" src="{{asset('/')}}js/plugins/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="{{asset('/')}}js/plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/gokulhans/php-hosting-test/main/js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/gokulhans/php-hosting-test/main/js/plugins/dataTables.bootstrap.min.js"></script>
+
     <script type="text/javascript">$('#sampleTable').DataTable();</script>
     <script src="https://unpkg.com/sweetalert2@7.19.1/dist/sweetalert2.all.js"></script>
     <script type="text/javascript">
